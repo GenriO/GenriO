@@ -1,0 +1,304 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	height: 100%;
+}
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+}
+.wrapper {
+	width: 1100px;
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important; 
+	height: 100%;
+}
+.header {
+	height: 130px;
+	background-color: #333333;
+}
+.article { 
+	padding:68px 60px 0 60px;
+}
+.logo   h1 { 
+	font: 42px/20px MyriadPro,Arial;
+	position: relative;
+	padding: 50px 0 0 70px;
+	color: #fff;
+	float: left;
+}
+.text-menu {
+	float: right;
+	width: 500px;
+	font: 16px arial;
+	margin-top: 62px;
+	color: #fff;
+}
+	.text-menu li:after {
+		content: '--';
+		padding-left: 3px;
+	}
+		.text-menu li:last-child:after {
+			content: '';
+		}
+			.text-menu ul {
+				padding: 0 20px 30px 0;
+			}
+				.text-menu ul li {
+					display: inline;
+				}
+					.text-menu ul li a {
+						text-decoration: none;
+						color: #fff;
+					}	
+						.text-menu ul li a:hover {
+							color: #00aeef;
+						}
+.subhead {
+	font: 35px MyriadPro,Arial;
+	position: relative;
+	background-color: #fff;
+}
+	.subhead h2 {
+		font-weight: 600;
+	}
+		.subhead h3 {
+			color: #bbbbbb;
+			font: 42px MyriadPro,Arial;
+		}
+			.subhead b {
+				color: #00bff3
+			}
+.subhead-content {
+	height: 130px;
+	background-color: #fff;
+	font: 26px MyriadPro,Arial;
+	position: relative;
+	padding: 20px 50px 0 0;
+	border-bottom: dotted #bbbbbb;
+	border-top: dotted #bbbbbb;
+}
+	.subhead-content p {
+		color: #555555;
+	}
+	
+
+.block {
+	height: 450px;
+	border-bottom: dotted #bbbbbb;
+	text-align: center;
+}
+		.block .blink {
+			line-height: 21px;
+		}
+			.block1 {
+				width: 280px;
+				height: 350px;
+				background-color: #00aeef;
+				margin-top: 45px;
+				font: 14px MyriadPro,Arial;
+				color: #fff;
+				float: left;
+				box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.40);
+			}
+				.block1  h3 {
+					padding-top: 22px;
+					font: 40px MyriadPro,Arial;
+				}
+					.block1 p {
+						padding: 0 24px 0 24px;
+					}
+						.block2 {
+							width: 280px;
+							height: 350px;
+							background-color: #00aeef;
+							float: left;
+							font: 14px MyriadPro,Arial;
+							color: #fff;
+							margin: 45px 0 0 70px;
+							box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.40);
+						}
+							.block2  h3 {
+								padding-top: 22px;
+								font: 40px MyriadPro,Arial;
+							}
+								.block2 p {
+									padding: 0 24px 0 24px;
+								}
+									.block3 {
+										width: 280px;
+										height: 350px;
+										background-color: #00aeef;
+										float: left;
+										font: 14px MyriadPro,Arial;
+										color: #fff;
+										margin: 45px 0 0 70px;
+										box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.40);
+									}
+										.block3  h3{
+											padding-top: 22px;
+											font: 40px MyriadPro,Arial;
+										}
+											.block3 p {
+												padding: 0 24px 0 24px;
+											}
+.button {
+	height: 40px;
+	width: 250px;
+	border-color: #0076a3;
+	border-style: solid;
+	border-width: 1px;
+	background: #0076a3;
+	cursor: pointer;
+	margin-top: 30px;
+	color: #fff;
+}
+	.button:hover {
+		border-color: #FFCC66 #FFFF99 #FFFF99 #FFCC66;
+		border-style: solid;
+		border-width: 1px;
+		background: #084861;
+	}
+		.button:active {
+			background:# ddd;
+			border-color: #ddd #333 #333 #ddd;
+			border-style: solid;
+			border-width: 1px;
+		}
+.bottom-menu {
+	height: 450px;
+	color: #d84545;
+	border-bottom: dotted #bbbbbb;
+}
+	.left-bottom-menu {
+		width: 470px;
+		height: 370px;
+		margin-top: 40px;
+		font: 14px MyriadPro,Arial;
+		color: #555555;
+		border-right: dotted #bbbbbb;
+		float:left;
+	}
+		.left-bottom-menu p {
+			padding-top: 15px;
+		}
+			.left-bottom-menu a {
+				text-decoration: none;
+				color: #00aeef;
+			}
+				.left-bottom-menu a:hover {
+					color: #262423;
+				}
+					.left-bottom-menu h3 {
+						font: 19px MyriadPro,Arial;
+						color: #555555;
+					}
+						.bottom-menu1 {
+							height:80px;
+							padding-top: 30px;
+							margin-bottom: 10px;							
+						} 
+								.bottom-menu1 .bottom {
+									height: 80px;
+									width: 80px;
+									float: left;
+									margin-right: 30px;
+								}
+									.bottom-menu1 .style {
+										overflow:hidden;
+									}
+										.bottom-menu2 {
+												height:80px;
+												padding-top: 30px;
+												margin-bottom: 10px;
+										}
+											.bottom-menu2 .bottom {
+												height: 80px;
+												width: 80px;
+												float: left;
+												margin-right: 30px;
+											}
+												.bottom-menu2 .style {
+													overflow:hidden;
+												}	
+													.bottom-menu3 {
+														height:80px;
+														padding-top: 30px;
+														margin-bottom: 10px;
+													}									
+														.bottom-menu3 .bottom {
+															height: 80px;
+															width: 80px;
+															float: left;
+															margin-right: 30px;
+														}
+															.bottom-menu3 .style {
+																overflow:hidden;
+															}
+.bottom {
+	-webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+    -moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+	.bottom:hover {
+	  -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+}
+.copy {
+	width: 400px;
+	height: 150px;
+	padding: 18px 0 0 60px;
+	color: #b8b8b8;
+	font: 14px MyriadPro,Arial;
+}
+.right-bottom-menu {
+	width: 435px;
+	height: 370px;
+	float: left;
+	margin: 40px 0 0 40px;
+	font: 14px MyriadPro,Arial;
+	color: #555555;
+}
+	.right-bottom-menu a{
+		text-decoration: none;
+		color: #00aeef;
+	}
+		.right-bottom-menu a:hover {
+			color: #262423;
+		}
+			.right-bottom-menu img {
+				width: 435px;
+				height: 206px;
+				-webkit-transform:scale(1.0); 
+				-moz-transform:scale(1.0); 
+				-o-transform:scale(1.0); 
+				-webkit-transition-duration: 0.5s; 
+				-moz-transition-duration: 0.5s; 
+				-o-transition-duration: 0.5s; 
+			    opacity: 0.9;  
+			}
+				.right-bottom-menu img:hover {
+					-webkit-transform:scale(1.1); 
+					-moz-transform:scale(1.1); 
+					-o-transform:scale(1.1); 
+					box-shadow:0px 0px 30px gray; 
+					-webkit-box-shadow:0px 0px 30px gray; 
+					-moz-box-shadow:0px 0px 30px gray; 
+					opacity: 1;
+				}
+					.right-bottom-menu h3 {
+						font: 19px MyriadPro,Arial;
+						color: #555555;
+					}
+						.right-bottom-menu p {
+							font: 19px MyriadPro,Arial;
+							color: #a8a8a8;
+						}
